@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://sage-granita-71ace4.netlify.app/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2023 17:43:31 +0200</lastBuildDate><atom:link href="https://sage-granita-71ace4.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to start in Cyber Security !</title>
+      <link>https://sage-granita-71ace4.netlify.app/post/first/</link>
+      <pubDate>Tue, 07 Feb 2023 17:43:31 +0200</pubDate>
+      
+      <guid>https://sage-granita-71ace4.netlify.app/post/first/</guid>
+      <description>there is in cyber security alot of fields but mainly two teams red team best Definition is : group of people authorized and organized to emulate a potential adversary’s attack or exploitation capabilities against an enterprise’s security posture. The Red Team’s objective is to improve enterprise cybersecurity by demonstrating the impacts of successful attacks and by demonstrating what works for the defenders (i.e., the Blue Team) in an operational environment. Also known as Cyber Red Team</description>
+    </item>
+    
+  </channel>
+</rss>

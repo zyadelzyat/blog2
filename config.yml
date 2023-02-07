@@ -2,3 +2,6 @@ baseURL: https://sage-granita-71ace4.netlify.app/
 languageCode: en-us
 title: My New Hugo Site
 theme: paper
+twitter: twitter.com/@zad606               
+github:  github.com/zyadelzyat               
+rss: true                                
