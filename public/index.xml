@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Zyad Blog</title>
     <link>https://sage-granita-71ace4.netlify.app/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Zyad Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Feb 2023 17:43:31 +0200</lastBuildDate><atom:link href="https://sage-granita-71ace4.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sage-granita-71ace4.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>useful commands in cmd</title>
+      <link>https://sage-granita-71ace4.netlify.app/post/second/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sage-granita-71ace4.netlify.app/post/second/</guid>
+      <description>what is cmd and why should i use it ? any os has a kernel , the kernel is the core of the os which contains every thing , above the kernel there is the shell it is the something between us and the os , but how to access it ? there is two ways the fisrt is the gui which icons and all these things or the terminal .</description>
+    </item>
+    
     <item>
       <title>How to start in Cyber Security !</title>
       <link>https://sage-granita-71ace4.netlify.app/post/first/</link>

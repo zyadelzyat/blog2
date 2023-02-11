@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sage-granita-71ace4.netlify.app/post/first/</loc>
-    <lastmod>2023-02-07T17:43:31+02:00</lastmod>
+    <loc>https://sage-granita-71ace4.netlify.app/post/</loc>
+    <lastmod>2023-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-granita-71ace4.netlify.app/post/second/</loc>
+    <lastmod>2023-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-granita-71ace4.netlify.app/</loc>
-    <lastmod>2023-02-07T17:43:31+02:00</lastmod>
+    <lastmod>2023-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-granita-71ace4.netlify.app/post/</loc>
+    <loc>https://sage-granita-71ace4.netlify.app/post/first/</loc>
     <lastmod>2023-02-07T17:43:31+02:00</lastmod>
   </url><url>
     <loc>https://sage-granita-71ace4.netlify.app/categories/</loc>

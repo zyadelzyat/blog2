@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready text-sm lg:text-base"
+  style="--bg: #faf6f1"
+  lang="en-us"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>useful commands in cmd - Zyad Blog</title>
+
+  
+  <meta name="theme-color" />
+  
+  <meta name="description" content="what is cmd and why should i use it ? any os has a kernel , the kernel is the core of the os which contains every thing , above the kernel there is the shell it is the something between us and the os , but how to access it ? there is two ways the fisrt is the gui which icons and all these things or the terminal ." />
+  <meta
+    name="author"
+    content=""
+  />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://sage-granita-71ace4.netlify.app/main.min.css" />
+
+  
+  <script
+    defer
+    src="https://sage-granita-71ace4.netlify.app/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+   
+  <link rel="preload" as="image" href="https://sage-granita-71ace4.netlify.app/theme.png" />
+
+  
+  
+  
+  
+
+  
+
+  
+  <link rel="icon" href="https://sage-granita-71ace4.netlify.app/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://sage-granita-71ace4.netlify.app/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.92.2" />
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="useful commands in cmd" />
+<meta property="og:description" content="what is cmd and why should i use it ? any os has a kernel , the kernel is the core of the os which contains every thing , above the kernel there is the shell it is the something between us and the os , but how to access it ? there is two ways the fisrt is the gui which icons and all these things or the terminal ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sage-granita-71ace4.netlify.app/post/second/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-02-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-02-11T00:00:00+00:00" />
+
+
+  
+  <meta itemprop="name" content="useful commands in cmd">
+<meta itemprop="description" content="what is cmd and why should i use it ? any os has a kernel , the kernel is the core of the os which contains every thing , above the kernel there is the shell it is the something between us and the os , but how to access it ? there is two ways the fisrt is the gui which icons and all these things or the terminal ."><meta itemprop="datePublished" content="2023-02-11T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-02-11T00:00:00+00:00" />
+<meta itemprop="wordCount" content="196">
+<meta itemprop="keywords" content="" />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="useful commands in cmd"/>
+<meta name="twitter:description" content="what is cmd and why should i use it ? any os has a kernel , the kernel is the core of the os which contains every thing , above the kernel there is the shell it is the something between us and the os , but how to access it ? there is two ways the fisrt is the gui which icons and all these things or the terminal ."/>
+
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-0.5 text-3xl font-bold"
+      href="https://sage-granita-71ace4.netlify.app/"
+      >Zyad Blog</a
+    >
+    <a
+      class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+    ></a>
+  </div>
+
+  <a
+    class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+  ></a>
+
+  
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = `"#faf6f1"`.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/archives/"
+        >Archives</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/categories/"
+        >Categories</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/tags/"
+        >Tags</a
+      >
+      
+    </nav>
+    
+
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-20 pb-32 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-20">
+    <h1 class="!my-0 pb-2.5">useful commands in cmd</h1>
+
+    
+    <div class="text-sm opacity-60">
+      
+      <time>Feb 11, 2023</time>
+      
+      
+    </div>
+    
+  </header>
+
+  <section><h1 id="what-is-cmd-and-why-should-i-use-it-">what is cmd and why should i use it ?</h1>
+<p>any os has a kernel , the kernel is the core of the os which contains every thing , above the kernel there is the shell it is the something between us and the os , but how to access it ? there is two ways the fisrt is the gui which icons and all these things or the terminal .</p>
+<p><img src="https://www.researchgate.net/profile/Martin-Ranang/publication/2912001/figure/fig5/AS:668584468557841@1536414367538/A-conceptual-diagram-of-a-Unix-system-The-kernel-surrounds-and-controls-the-hardware.png" alt="This is an image"></p>
+<p>the terminal in windows is the cmd which we will gone write the commands in it</p>
+<p>if you using linux you already know why we should use it , but we gone use it for speed the gui take alot of processes , and because of reduced resource usage lets start .</p>
+<h2 id="first-open-the-cmd-by-typing-in-the-search-bar-cmd-or-press-win--r-and-type-cmd">first open the cmd by typing in the search bar cmd or press win + r and type cmd</h2>
+<p><img src="https://www.freecodecamp.org/news/content/images/2020/11/search-cmd-prompt-1.jpg" alt="This is an image"></p>
+<h3 id="the-commands-">the commands :</h3>
+<p>1- to get the full properties for any command type: help then the command</p>
+<p><img src="https://www.lifewire.com/thmb/xyMtZAa7HQZarKAuJki5SUoKpMY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/help-command-windows-10-5235fec0871648538c84a171a37b33fd.png" alt="This is an image"></p>
+<p>2- to clean your screen type: cls</p>
+<p>3- to know your ip and mac address: ipconfig /all</p>
+<p>4- to show all the processes and tasks: tasklist and if you want to kill it taskkill /f /pid thenumberofproccesss</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 no-underline hover:bg-black/[2%]"
+      href="https://sage-granita-71ace4.netlify.app/post/first/"
+      ><span>How to start in Cyber Security !</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+
+  
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2023
+    <a class="link" href="https://sage-granita-71ace4.netlify.app/">Zyad Blog</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >▷ Paper 6</a
+  >
+</footer>
+
+  </body>
+</html>
