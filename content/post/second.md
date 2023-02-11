@@ -3,6 +3,7 @@ title: "useful commands in cmd"
 date: 2023-02-11
 draft: false
 ---
+![This is an image](https://c4.wallpaperflare.com/wallpaper/830/34/522/windows-11-macos-colorful-operating-system-windows-logo-hd-wallpaper-preview.jpg)
 # what is cmd and why should i use it ?
 any os has a kernel , the kernel is the core of the os which contains every thing , above the kernel there is the shell it is the something between us and the os it under stand human and machine language , but how to access it ? there is two ways the fisrt is the gui which icons and all these things or the terminal whic will understand our command and delver it to the shell adn the shell well delevr it to the kernel .
 
@@ -61,10 +62,11 @@ or use
 
 now we just coverd overview basics of the cmd , know that there is new terminal from microsoft called "power shell" has more utilities highly recommended to learn it i will leave resources at the end
 
-learning the terminal well make you more professional and will make using linux so easy ! , remember my friend always search :)
+learning the terminal well make you more professional and will make using linux so easy !  remember my friend always search :)
 
 [powershell](https://www.youtube.com/watch?v=sQm4zRvvX58&list=PLlVtbbG169nFq_hR7FcMYg32xsSAObuq8&index=1)
-and here is full playlist for it [full playlist]{https://www.youtube.com/playlist?list=PLlVtbbG169nFq_hR7FcMYg32xsSAObuq8}
+
+and here is full playlist for it [full playlist](https://www.youtube.com/playlist?list=PLlVtbbG169nFq_hR7FcMYg32xsSAObuq8)
 
 [cmd intro](https://www.youtube.com/watch?v=wmZMMcm7zWA)
 
